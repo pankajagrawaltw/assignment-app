@@ -1,0 +1,90 @@
+.title {
+  font-size: 1.363rem;
+  font-weight: 700;
+}
+
+.subtitle {
+  font-weight: 500;
+}
+
+.card {
+  height: 110px;
+}
+
+.job>div {
+  margin-bottom: 5px;
+}
+
+.job-left {
+  padding-right: 0;
+}
+
+.job-left .card {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-left-color: var(--primary_blue_color);
+  border-left-width: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.invited-job .job-left .card {
+  border-left-color: var(--green_color);
+}
+
+
+.job-right {
+  padding-left: 0;
+}
+
+.job-right .card {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.jobs .job:first-child .job-left .card {
+  border-top-left-radius: 5px !important;
+}
+
+.card-title {
+  font-weight: 700;
+  margin: 3px;
+}
+
+.time,
+.company,
+.address {
+  font-size: 14px;
+  margin: 0 3px;
+}
+
+.job-right .card-title {
+  font-weight: 500;
+}
+
+.job-right .star-ratings {
+  margin-left: 2px;
+}
+
+.job-right .star-grad,
+.job-right .star-container {
+  vertical-align: top !important;
+}
+
+.btn-outline-decline {
+  border: 2px solid var(--primary_blue_color);
+  color: var(--primary_blue_color)
+}
+
+.btn-outline-decline:hover {
+  background-color: var(--primary_blue_color);
+  color: #fff;
+
+}
+
+.btn-apply {
+  background-color: var(--primary_blue_color);
+  color: #fff;
+}

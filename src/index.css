@@ -1,0 +1,13 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+:root {
+  --primary_blue_color: #364260;
+  --green_color: #3AEBB6;
+}
+
+body {
+  font-family: Montserrat !important;
+  background-color: #d0d0d020;
+  font-size: 16px !important;
+  padding: 15px;
+}
